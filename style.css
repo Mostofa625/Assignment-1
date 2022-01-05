@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+}
+.line{
+    border-left: 5px solid rgb(250, 6, 27);
+    height: 90px;
+    margin-top: 20px;
+}
+.header{
+    color: rgb(252, 4, 4);
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-top: 40px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+.half-width img{
+    width: 120%;
+    padding-left: 100px;
+    }
