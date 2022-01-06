@@ -54,12 +54,13 @@ h1 span{
     width:30%;
     float: left;
     margin-left: 7.5%;
+    margin-right: 7.5%;
     padding-left: 5%;
     
 }
 .first{
     box-shadow: 10px 10px 40px gray;
-    width: 30%;
+    width: 40%;
     padding: 20%;
     margin: 5%;
     background-color: #edf5f6
@@ -113,6 +114,7 @@ h1 span{
     background-color: black;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-top: 10%;
 }
     
 
