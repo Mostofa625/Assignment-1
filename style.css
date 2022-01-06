@@ -1,34 +1,59 @@
 body{
+    font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
-    margin: 0; 
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+    
+}
+h1 span{
+    color: red;
 }
 .line{
-    border-left: 5px solid green;
-    height: 90px;
-    margin-top: 20px;
+    border-left: 5px solid sienna ;
+    margin-top: 50px;
 }
-.header{
-    color: rgb(252, 4, 4);
-}
-.flexible-container{
+.flex{
     display: flex;
 }
-.half-width{
-    width: 50%;
-    padding-top: 40px;
-    padding-right: 200px;
-    padding-left: 100px;
+.display{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 2%;
+    padding-top: 25;
 }
-.half-width img{
-    width: 100%;
-    padding-left: 100px;
-    }
+.display img{
+    width: 70%;
+    padding-left: 20%;
+}
+
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
-    padding: 10px 40px;
+    background: linear-gradient(tomato,salmon );
+    padding: 10px 30px;
     border-radius: 5px;
     color: white;
-    font-weight: 600;
-
+    font-size: 700;
+}
+.image-1{
+    float: left;
+    size: 20%;
+}
+.develop img{
+    width: 70%;
+    padding-left: 15%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.develop{
+    width: 40%;
+    float: right;
+    padding-right: 5%;
+    padding-top: 10%;
 }
