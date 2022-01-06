@@ -14,8 +14,8 @@ h1 span{
     color: red;
 }
 .line{
-    border-left: 5px solid sienna ;
-    margin-top: 50px;
+    border-left: 5px solid rgb(253, 4, 4) ;
+    padding-left: 15px;
 }
 .flex{
     display: flex;
@@ -44,6 +44,40 @@ h1 span{
     float: left;
     size: 20%;
 }
+.middle{
+    text-align: center;
+}
+.right{
+    text-align: left;
+}
+.box{
+    width:30%;
+    float: left;
+    margin-left: 7.5%;
+    padding-left: 5%;
+    
+}
+.first{
+    box-shadow: 10px 10px 40px gray;
+    width: 30%;
+    padding: 20%;
+    margin: 5%;
+    background-color: #edf5f6
+}
+.second{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 20% 20% 20%;
+    margin: 5%;
+    background-color: #ffeeee;
+}
+.third{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 20%;
+    margin: 5%;
+    background-color: #fff4d6;
+}
 .develop img{
     width: 70%;
     padding-left: 15%;
@@ -56,6 +90,11 @@ h1 span{
     float: right;
     padding-right: 5%;
     padding-top: 10%;
+   
+}
+#space{
+    margin-top: 30%;
+    
 }
 .display1{
     width: 40%;
